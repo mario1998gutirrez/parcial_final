@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #D6DAD6;
+}
+header{
+	background-color: black;
+	color: white;
+	font-family: arial;
+	margin: 0 auto;
+	background-image: url("captura.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 1905px;
+	width: 100%;
+	margin: 0px;
+	padding: 30px;
+	height: 150px;
+	justify-content: space-around;
+	
+
+}
+.mario{
+	height: 480px;
+}
+
+ul{
+	text-align: right;
+	margin-right: 4px;
+	text-decoration: none;
+}
+li{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+    text-decoration: none;
+    border-radius: 15px 5px;
+    color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+@media (min-width: 400px){
+	body{
+		background-color: orange;
+	}
+}
+@media (min-width: 400px){
+	body{
+		background-color: green;
+	}
+}
+@media (min-width: 400px){
+	body{
+		background-color: white;
+	}
+}
+h2{
+	padding: 20px;
+	text-align: center;
+	margin: 0px;
+}
+.mario{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	 border: 2px solid green;
+	 background-image: url("fondo.jpg");
+	 background-repeat: no-repeat;
+	 background-size: 150%;
+	padding-top: 60px;
+    width: 1905px;
+    width: 100%;
+	height: 100%;
+}
+.gutierrez{
+    display: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    width: 200px;
+    height: 500px;
+    width: 33%;
+}
+.mario h2{
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    background: olivedrab;
+    padding: 20px;
+    
+}
+.mario p{
+	font-family: arial;
+	font-size: 17px;
+	padding: 10px;
+	background: orangered;
+	color: black;
+}
+.mario button{
+	margin: 0px;
+	background: #005c29;
+	margin-left: 20px;
+	padding: 10px 15px;
+	display: inline;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+}
+button: hover{
+	background: yellow;
+}
+h3{
+	background-color: black;
+	color: white;
+	display: block;
+	padding: 30px;
+	height: 100px;
+    margin:0px;
+    width: 100%;
+
+}
